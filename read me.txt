@@ -1,0 +1,19 @@
+Blurry Loading Project:
+I have Learned in these Project:
+
+CSS:
+1- this class
+.bg {
+  background: url("11.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 50px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+JS:
+1- setInterval(blurring,30);
+2-  clearInterval(int);
